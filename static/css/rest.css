@@ -1,0 +1,59 @@
+.name {
+    width: 7em;
+    display: table-cell;
+    border-right: 1px solid #ccc;
+    padding-left: 0.5em;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.email {
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    display: table-cell;
+    padding: 0 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete {
+    font-size: 1.5em;
+    color: red;
+    padding: 0 0.5em;
+    display: table-cell;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+ul.users {
+    list-style-type: none;
+    border: 1px solid black;
+    display: table;
+}
+
+li.user {
+  border: 1px solid #ccc;
+  display: table-row;
+}
+
+.editor {
+  border: 1px solid black;
+  display: table;
+}
+
+.adduser {
+    position: fixed;
+    top: 100px;
+    font-size: 4em;
+    color: green;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
